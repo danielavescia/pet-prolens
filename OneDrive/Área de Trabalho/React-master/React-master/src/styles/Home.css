@@ -214,6 +214,9 @@ section#contact-section {
   gap: 3rem;
 }
 
+a {
+  background-color: transparent;
+}
 svg {
   background-color: black;
   justify-content: center;
