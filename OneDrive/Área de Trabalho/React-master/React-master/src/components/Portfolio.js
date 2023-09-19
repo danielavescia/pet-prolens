@@ -28,31 +28,27 @@ const Portfolio = () => {
 
   return (
     <div id="main-container">
-      <div className="first-row">
-        {imagensPequenas.map((imagem, index) => (
-          <div className="small-images-container">
-            <img
-              key={index}
-              src={imagem.url}
-              alt={`Imagem ${index}`}
-              className="render-small-image"
-            />
-            console.log({imagem.width});
-          </div>
-        ))}
-      </div>
-      <div className="second-row">
-        {imagensGrandes.map((imagem, index) => (
-          <div className="big-images-container">
-            <img
-              key={index}
-              src={imagem.url}
-              alt={`Imagem ${imagem.name}`}
-              className="render-big-image"
-            />
-          </div>
-        ))}
-      </div>
+      {imagensPequenas.map((imagem, index) => (
+        <div className="small-images-container">
+          <img
+            key={index}
+            src={imagem.url}
+            alt={`Imagem ${index}`}
+            className="render-small-image"
+          />
+        </div>
+      ))}
+
+      {imagensGrandes.map((imagem, index) => (
+        <div className="big-images-container">
+          <img
+            key={index}
+            src={imagem.url}
+            alt={`Imagem ${imagem.name}`}
+            className="render-big-image"
+          />
+        </div>
+      ))}
     </div>
   );
 };
