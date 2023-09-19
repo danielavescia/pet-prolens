@@ -26,28 +26,29 @@ const Home = () => {
       {/*-----------------SEGUNDA SEÇÃO: DEMONSTRAÇÃO-----------------*/}
 
       <section id="section-cards">
-        <div>
+        <div className="cards-container">
           <div className="cards-content">
             <div className="cards-content-header">
               <h2 className="section-title1">4+</h2>
               <h2 className="section-title2"> Anos de Experiência no Ramo</h2>
             </div>
           </div>
-        </div>
-        <div className="posts-cards">
-          <h2 className="posts-cards-title">
-            Fotógrafo apaixonado por capturar a beleza e personalidade dos
-            animais.
-          </h2>
-          <div className="card-img-container">
-            <div className="card-img">
-              <img src="cat03.jpg" alt="foto de um gato" />
-            </div>
-            <div className="card-img">
-              <img src="/cat02.jpg" alt="foto de um gato" />
-            </div>
-            <div className="card-img">
-              <img src="/cat01.jpg" alt="foto de um gato" />
+
+          <div className="posts-cards">
+            <h2 className="posts-cards-title">
+              Fotógrafo apaixonado por capturar a beleza e personalidade dos
+              animais.
+            </h2>
+            <div className="card-img-container">
+              <div className="card-img">
+                <img src="cat03.jpg" alt="foto de um gato" />
+              </div>
+              <div className="card-img">
+                <img src="/cat02.jpg" alt="foto de um gato" />
+              </div>
+              <div className="card-img">
+                <img src="/cat01.jpg" alt="foto de um gato" />
+              </div>
             </div>
           </div>
         </div>
