@@ -1,4 +1,5 @@
-##About
+#About
+
 Petpro Lens is a unique GitHub repository website dedicated to showcasing stunning cat images captured by our photographer. Each photograph is a masterpiece that celebrates the elegance, charm, and playfulness of our feline friends, fetched dynamically through the Cat API.
 
 ## Technologies Used:
