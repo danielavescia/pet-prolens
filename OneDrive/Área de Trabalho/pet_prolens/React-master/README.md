@@ -5,13 +5,13 @@ Petpro Lens is a unique GitHub repository website dedicated to showcasing stunni
 HTML
 CSS
 JavaScript
-Cat API
+React
 
 ### Prerequisites
 
 Make sure you have the following software installed on your machine:
 
-- [Node.js](https://nodejs.org/) (which includes npm)
+- [Node.js](https://nodejs.org/) 
 
 ### Installation:
 Installing all the required dependencies run this command:
@@ -32,6 +32,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Runs the server to test Login
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
